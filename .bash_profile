@@ -1,3 +1,4 @@
-alias ssh1='ssh -XY thkim@143.248.136.166'
-alias vi='vim'
-. ~/.profile
+# include .bashrc if it exists
+if [ -f "$HOME/.bashrc" ]; then
+    . "$HOME/.bashrc"
+fi
